@@ -9,9 +9,9 @@ Este repositório contém todo material utilizado no workshop "Python com Arduim
 ## Links:
 Links das pastas do repositório.
 
-* [Código](http://davinyvidal.github.io/codigo)
-* [Hotsite](http://davinyvidal.github.io/hotsite)
-* [Slide](https://github.com/davinyvidal/slide)
+* [Código](https://github.com/davinyvidal/pyarduino/tree/master/codigo)
+* [Hotsite do Evento](https://github.com/davinyvidal/pyarduino/tree/master/hotsite)
+* [Slide](https://github.com/davinyvidal/pyarduino/tree/master/slide)
 
 ## Canais:
 Canais das organizações que realizarão o evento:
