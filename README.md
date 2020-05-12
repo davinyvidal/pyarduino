@@ -18,5 +18,5 @@ Canais das organizações que realizarão o evento:
 
 * [Daviny Vidal](https://davinyvidal.github.io)
 * [PyLadiesSP](https://pt-br.facebook.com/PyLadiesSP/)
-
+* [Site do Evento](https://pythoncomarduino.divulgue.info)
 
