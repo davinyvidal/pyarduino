@@ -2,149 +2,44 @@
     <head>  	
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">  	
     <title>Python com Arduino | Daviny Vidal</title> 
-    <link rel="stylesheet" href="https://davinyvidal.github.io/css/layouts/style.css">
+    <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Great+Vibes|Oswald|Pacifico|Special+Elite&display=swap" rel="stylesheet">
 
-	<style>
-/* reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
-
-body{
-    background: #c27ba0ff ;
-    font-family: 'Special Elite', cursive;
-    font-size: 15px;
-
-}
-
-/* conteiner */
-.container  {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 5px;
-    background:#c27ba0ff ;
-}
-    @media (min-width: 1170px) {
-        .container {
-            max-width: 1000px;
-            padding: 0;
-            background-color:#c27ba0ff ;
-        }
-    }
-
-/* linha */
-.row {
-    margin-left: -5px;
-    margin-right: -5px;
-}
-    .row:before,
-    .row:after {
-        content: "";
-        display: table;
-    }
-    .row:after {
-        clear: both;
-    }
-
-/* colunas */
-.col {
-    display: inline-block;
-    vertical-align: top;
-    min-height: 1px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 100%;
-    margin-right: -4px;
-    *zoom: 1;
-    *display: inline;
-}
-    /* duas colonas */
-    @media (min-width: 400px) {
-        .col-2 {
-            width: 50%;
-
-        }
-    }
-
-    /* tres colunas */
-    @media (min-width: 728px) {
-        .col-3 {
-            width: 33.3333%;
-        }
-    }
-
-    /* sidebar */
-    @media (min-width: 992px) {
-        .col-content {
-            width: 60%;
-        }
-
-        .col-sidebar {
-           width: 40%;
-        }
-    }
-
-
-/* USAR APENAS PARA DEMOSTRAÇÂO */
-.teste {
-    background: #f5d5fe;
-    padding: 35px;
-    margin: 5px 0;
-    color: #000;
-    
-}
-
-.menu {
-    background: #f5d5fe;
-    padding: 5px;
-    margin: 5px 0;
-    color: #000;
-    font-family: 'Oswald', sans-serif;
-}
-.big {
-    height: 50px;
-    font-family: 'Bangers', cursive;
-    font-size: 26px;
-}
-.assinatura{
-
-    font-family: 'Great Vibes', cursive;
-    text-align: center;
-    padding: 29px;
-    font-size: 30px;
-}
-
-    </style> 
-    
+	
 </head>
 <body>
     <div class="container">
         <!--uma coluna-->
         <div class="row">
             <div class="col">
-                <div class="teste" style="background: #c27ba0ff;"><center>
-                    <img style="width: 90%;" src="./img/logo.png"> </center></div>
+                <div class="conteudo" style="background: #c27ba0ff;">
+                    <center> <img style="width: 60%;" src="./img/logo.png"> </center></div>
             </div>
         </div>
+        
         <!--duas culunas-->
         <div class="row">
-            <div class="col col-3">
-                <div class="menu"><a href="./#realizacoes">Realizações</a></div>
+            <div class="col col-4">
+                <div class="menu"><a href="./#faq">FAQ</a></div>
             </div>
-            <div class="col col-3">
+            <div class="col col-4">
                 <div class="menu"><a href="#tutoriais">Tutoriais</a></div>
             </div>
-            <div class="col col-3">
-                <div class="menu"><a href="https://forms.gle/8HqrHa3xZpZvc9t88" target="_blank">Download do Material</a></div>
+            <div class="col col-4">
+                <div class="menu"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc_z4Qe8hTnogcMUYEpsM-7G9FcDSfTsKbrmiue97EV2sjCNA/viewform?usp=sf_link" target="_blank">Download do Material</a></div>
             </div>
+            <div class="col col-4">
+                <div class="menu"><a href="#video">Vídeo do workshop</a></div>
+            </div>
+
         </div>
-        <div class="teste">
+         <div class="row">
+                <div class="aviso"> <center> ( ! ) Aviso >> Workshop Realizado no dia 03/05/2020</center></div>
+        </div>
+
+        <div class="row">
+             <div class="conteudo">
+
            <script language=javascript type="text/javascript">
            now = new Date
            if (now.getHours () >= 0 && now.getHours () < 5)
@@ -184,16 +79,49 @@ body{
              <p>**  O editor Arduino utilizado no workshop é o <b>Arduino Web Editor</b>.</p>
              <li><a href="./biblioteca.pdf" target="_blank">Preparativo da bibliotéca do Python</a></li>
              <li><a href="./lista_de_materiais.pdf" target="_blank">Componentes eletrônicos ultilizado no workshop</a></li>
-        
+            <BR>
+
+             <h4><a name="faq"></a>FAQ</h4>
+                 Organizei este mini  FAQ, com as perguntas feita no workshop, fique ligada, pôs vou acrescentando no decorre dos dias outras pergunstas com resposta :)
+                <BR><BR>
+                
+                <li> Onde posso comprar os componentes eletrônicos?</li>
+                 > Exitem alguns sites online para vendas, <a href="https://www.filipeflop.com/"> FelipeFlop</a> | <a href="https://www.robocore.net/">Robocore</a> | <a href="https://multilogica-shop.com/">Multilogica Shop</a> </li>
+                <br><BR>
+                 <li> Qual site para referências dos códigos e funções no Arduino?</li>
+                 > O site oficial do projeto é <a href="https://www.arduino.cc/reference/pt/">https://www.arduino.cc/reference/pt/</a> * documentação em português do Brasil
+                 <BR><BR>
+                <li>Exitem algum emulador para treinar o Arduino?</li>
+                > Exitem sim, um ótimo emulador é o <a href="https://www.tinkercad.com/">www.tinkercad.com</a>
+
+                            <BR><BR>
+                                <h4><a name="video"></a>Vídeo do Workshop</h4>
+                                        <BR>
+                                            <center>
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/a1TyTHMpHI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                <br><BR>
+                                                <a class="botao" href="youtube.com/pyladiessaopaulo">Acessa Aqui Canal das PyladiesSP no Youtube</a>
+                                                
+                                            </center>
+                                            <BR>
+                                        <br /><center><div class="realizacoes"><a name="realizacoes"></a>Realizações:</div><a href="https://pt-br.facebook.com/PyLadiesSP/"><img src="./img/pyladiessp.jpg" width="105px" height="90px"></a><a href="http://davinyvidal.github.io"> <img src="./img/dv.png" width="105px" height="90px"></a></center>
+           
+                    
+
+
+
+
+
+
+
+
+
+
+                   <p align="center"><BR> Todos direitos reservado | 2020 Copyright © - :) Obrigada </p>
+                    
+             </div>
     
-           
-           <br /><br /><center><div class="big"><a name="realizacoes"></a>Realizações:</div><a href="https://pt-br.facebook.com/PyLadiesSP/"><img src="./img/pyladiessp.jpg" width="105px" height="90px"></a><a href="http://davinyvidal.github.io"> <img src="./img/dv.png" width="105px" height="90px"></a></center>
-           
-           <p align="center"><BR>
-           Todos direitos reservado | 2020 Copyright © - :) Obrigada </p>
-           
-        </div>
-    
+         </div>
     </div>
 
 </body>
