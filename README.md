@@ -28,7 +28,6 @@ Repositório do workshop
 |--- slide
 |    |aprensentacao.pdf
 |
-|
 | license
 | readme.md
 ```
